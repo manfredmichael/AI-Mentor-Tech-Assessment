@@ -36,6 +36,11 @@ def get_product_recommendation(user_id, page_views, session_time, products=produ
                      input_['category_id']
                     ]).numpy().reshape(-1)
 
+    products['purchase_proba'] = pd.Series(results, index=products.index)
+    products = products.sort_values('purchase_proba', ascending=False)
+    
+    return products
+
 
 
 def get_user_recommendation(product_id, price, category_id, users=user_details, model=model):

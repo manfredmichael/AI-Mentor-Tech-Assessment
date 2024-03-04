@@ -81,7 +81,7 @@ def cashback_and_discount_recommendation():
         category_id_index = unique_category.index(category_id_value)
     else: 
         price_value = None
-        category_id_value = None
+        category_id_index = None
     price = st.number_input('How much does it cost?', value=price_value, min_value=0.0)
 
     category_id = st.selectbox(
