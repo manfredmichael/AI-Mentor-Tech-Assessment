@@ -9,3 +9,23 @@
 
 # TerraStore
 Technical Assessment for Mentor Data Science & AI
+</div>
+
+### Website Interface
+
+You can try the Streamlit Interface here: https://ai-mentor-tech-assessment-jfgowl3jho9m3lxnxavemo.streamlit.app/
+
+#### How to use?
+
+There are 2 pages. You could choose them on the sidebar.
+
+1. Recommendation System
+
+In this page, you could see which products are recommended for a given user.
+
+2. Cashback & Discount.
+
+In this page, you could see which users are more likely to buy a given products, hence you might want to encourage those users with discounts.
+
+
+
