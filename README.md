@@ -36,10 +36,12 @@ For this solution, I used Google's Wide and Deep Model as inspiration. I created
 
 WandB Report: https://wandb.ai/nodeflux-internship/tech-assessment-recsyc/reports/TerraStore-Recommendation-System-with-Wide-Deep-Architecture--Vmlldzo3MDE1OTE1
 
-Reference: https://blog.research.google/2016/06/wide-deep-learning-better-together-with.html
-
 ### Author's Note
 
 This project is far from perfect. There were a lot of steps skipped to save time. It is not supposed to be taken as real solution into recommendation system problem instead as a learning material.
 
+<br/>
+
+
+Reference: https://blog.research.google/2016/06/wide-deep-learning-better-together-with.html
 
