@@ -38,4 +38,8 @@ WandB Report: https://wandb.ai/nodeflux-internship/tech-assessment-recsyc/report
 
 Reference: https://blog.research.google/2016/06/wide-deep-learning-better-together-with.html
 
+### Author's Note
+
+This project is far from perfect. There were a lot of steps skipped to save time. It is not supposed to be taken as real solution into recommendation system problem instead as a learning material.
+
 
