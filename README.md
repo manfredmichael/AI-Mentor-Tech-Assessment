@@ -22,6 +22,7 @@ There are 2 pages. You could choose them on the sidebar.
 1. Recommendation System
 
 In this page, you could see which products are recommended for a given user.
+
 <img src="https://github.com/manfredmichael/AI-Mentor-Tech-Assessment/blob/main/assets/page1.png?raw=true" alt="drawing" width="450"/>
 
 2. Cashback & Discount.
