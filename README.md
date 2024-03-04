@@ -27,6 +27,9 @@ In this page, you could see which products are recommended for a given user.
 
 In this page, you could see which users are more likely to buy a given products, hence you might want to encourage those users with discounts.
 
+
+Note that you can change the prices or even move the product into different categories to see how the users react.
+
 ### Data Preparation & Model Training
 
 * Data Preparation: https://github.com/manfredmichael/AI-Mentor-Tech-Assessment/blob/main/model-training/dataset_creation.ipynb
