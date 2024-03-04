@@ -39,8 +39,23 @@ def recommendation_system():
             page_views=page_views, 
             session_time=session_time
         )
-        recommendations = recommendations.head(10)
-        st.dataframe(recommendations)
+        recommendations['category_id'] = recommendations['category_id'].astype(str)
+
+        st.write("#### Top 10 products for user {}".format(user_id))
+        st.dataframe(
+            recommendations.head(10),
+            hide_index=True,
+            column_config={
+            "product_id": st.column_config.NumberColumn(
+                "Product ID",
+                format="%d",
+            )
+        },)
+
+        st.write("#### Top 10 categories for user {}".format(user_id))
+        st.dataframe(
+            pd.Series(recommendations.category_id.unique()[:10], name='Category ID'),
+            hide_index=True)
         
 
 
