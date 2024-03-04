@@ -33,6 +33,12 @@ In this page, you could see which users are more likely to buy a given products,
 
 Note that you can change the prices or even move the product into different categories to see how the users react.
 
+#### How to run it yourself
+
+1. `git clone https://github.com/manfredmichael/AI-Mentor-Tech-Assessment.git`
+2. `pip install -r requirements.txt`. Note: You might want to activate your virtual environment first.
+3. `streamlit run app.py`
+
 ### Data Preparation & Model Training
 
 * Data Preparation: https://github.com/manfredmichael/AI-Mentor-Tech-Assessment/blob/main/model-training/dataset_creation.ipynb
