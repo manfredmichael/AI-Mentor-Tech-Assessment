@@ -27,5 +27,13 @@ In this page, you could see which products are recommended for a given user.
 
 In this page, you could see which users are more likely to buy a given products, hence you might want to encourage those users with discounts.
 
+### Data Preparation & Model Training
+
+* Data Preparation: https://github.com/manfredmichael/AI-Mentor-Tech-Assessment/blob/main/model-training/dataset_creation.ipynb
+* Model Training: https://github.com/manfredmichael/AI-Mentor-Tech-Assessment/blob/main/model-training/training.ipynb
+
+For this solution, I used Google's Wide and Deep Model as inspiration. I created the model from scratch with Tensorflow and Monitored the training process with WandB.
+
+Reference: https://blog.research.google/2016/06/wide-deep-learning-better-together-with.html
 
 
