@@ -34,6 +34,8 @@ In this page, you could see which users are more likely to buy a given products,
 
 For this solution, I used Google's Wide and Deep Model as inspiration. I created the model from scratch with Tensorflow and Monitored the training process with WandB.
 
+WandB Report: https://wandb.ai/nodeflux-internship/tech-assessment-recsyc/reports/TerraStore-Recommendation-System-with-Wide-Deep-Architecture--Vmlldzo3MDE1OTE1
+
 Reference: https://blog.research.google/2016/06/wide-deep-learning-better-together-with.html
 
 
